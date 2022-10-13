@@ -11381,15 +11381,35 @@ footer.footer {
   padding-bottom: 0.5rem;
 }
 
+@media (min-width:1200px)  { 
+  .community-projects-sheets {
+    width: 700px;
+    margin: 25px 0;
+  }
+ }
+
+
+@media (min-width:650px)  { 
+  .discord-server-img {
+      width: 430px;
+  }
+ }
+
+ @media (min-width:650px) and (max-width:1200px)   { 
+  .community-projects-sheets {
+    width: 500px;
+    margin: 25px 0;
+  }
+ }
 
 @media (max-width:650px)  { 
   .discord-server-img {
       width: 250px;
   }
- }
-
- @media (min-width:650px)  { 
-  .discord-server-img {
-      width: 430px;
+  .community-projects-sheets {
+    width: 250px;
+    margin: 25px 0;
   }
  }
+
+ 
